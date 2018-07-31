@@ -8,6 +8,10 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:8080/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SabrinaMarkon/react-online-educational-platform.git"
@@ -16,6 +20,7 @@
     "react.javascript",
     "nosql",
     "sass",
+    "bulma",
     "css",
     "html5",
     "webpack",
@@ -45,6 +50,8 @@
     "webpack-dev-server": "^3.1.5"
   },
   "dependencies": {
+    "babel-jest": "^23.4.2",
+    "jest": "^23.4.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router": "^4.3.1",
