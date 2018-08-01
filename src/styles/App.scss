@@ -1,10 +1,15 @@
 h1 {
     color: #27aedb;
     text-align: center;
-    font-size: 22px;
+    font-size: 3em;
 }
 h2 {
     color: #f00;
     text-align: center;
-    font-size: 18px;
+    font-size: 2em;
+}
+.center {
+    display: flex;
+    justify-content: center; // horizontal alignment
+    align-content: center;  // vertical alignment
 }

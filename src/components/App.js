@@ -10,7 +10,6 @@ class App extends Component {
                 <div className="hero-body">
                     <div className="container">
                         <h1>React Online Educational Platform</h1>
-                        <h2>I love cats</h2>
                     </div>
                 </div>
             </div>
