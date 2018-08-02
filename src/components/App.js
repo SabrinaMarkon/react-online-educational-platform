@@ -6,6 +6,7 @@ import '../styles/App.scss';
 class App extends Component {
     render() {
         return (
+        <div class="container">
             <div className="hero has-background-black">
                 <div className="hero-body">
                     <div className="container">
@@ -13,6 +14,24 @@ class App extends Component {
                     </div>
                 </div>
             </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="notification">
+                    One Bulma column
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="notification">
+                    Two Bulma column
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="notification">
+                    Three Bulma column
+                    </div>
+                </div>
+            </div>
+        </div>
         );
     }
 }
