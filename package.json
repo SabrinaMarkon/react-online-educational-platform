@@ -4,7 +4,7 @@
   "description": "Learning management system for online education classes",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
@@ -43,6 +43,8 @@
     "css-loader": "^1.0.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.2",
+    "puppeteer": "^1.6.2",
+    "react-test-renderer": "^16.4.2",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.3",
