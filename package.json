@@ -4,8 +4,8 @@
   "description": "Learning management system for online education classes",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
-    "start": "webpack-dev-server --mode development --open --hot",
+    "test": "jest --detectOpenHandles --watch",
+    "start": "webpack-dev-server --mode development --open --hot --watch-poll",
     "build": "webpack --mode production"
   },
   "jest": {

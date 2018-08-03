@@ -1,7 +1,11 @@
+/**
+ * @jest-environment node
+ */
+
 // for Jest snapshots:
 import renderer from 'react-test-renderer';
 
-// jest.setTimeout(30000);
+jest.setTimeout(30000);
 const puppeteer = require('puppeteer');
 
 describe('Addition', () => {
